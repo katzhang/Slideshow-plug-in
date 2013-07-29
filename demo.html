@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<title>Image Slider Plug-in</title>
+</head>
+<body>
+	<div id="wrapper">
+		<section id="slideshow">
+			<ul id="slides-list">
+				<section id="slides-wrapper">
+					<li class="slides"><img src="images/1.png"/></li>
+					<li class="slides"><img src="images/2.png"/></li>
+					<li class="slides"><img src="images/3.png"/></li>
+					<li class="slides"><img src="images/4.png"/></li>
+				</section>
+				<a id="prev-button" class="buttons"></a>
+				<a id="next-button" class="buttons"></a>
+			</ul>
+		</section>
+    </div><!--end #wrapper-->
+<script type="text/javascript" src="slideshow.js"></script>
+<script>
+	$('.buttons').slide({autoBack: true});
+</script>
+
+</body>
+</html>

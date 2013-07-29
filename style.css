@@ -1,0 +1,50 @@
+#wrapper				{ 
+						width: 100%;
+						}
+
+ul#slides-list			{
+						height: 250px;
+						list-style: none;
+						margin: 0 auto;
+						overflow: hidden;
+						padding: 0;
+						position: relative;
+						transition: all 1s ease;
+						-webkit-transition: all 1s ease;
+						width: 400px;
+						}
+
+li.slides 				{
+						float: left;
+						transition: all 1s ease;
+						-webkit-transition: all 1s ease;
+						}
+
+li.slides img			{
+						height: 250px;
+						width: 400px
+						}
+
+a.buttons				{
+						background-image: url(images/sprite.png);
+						background-repeat: no-repeat;
+						display: block;
+						height: 60px;
+						position: absolute;
+						width: 60px;
+						}
+
+a.buttons.disabled 		{ opacity: .3;}
+
+a#prev-button			{
+						left: 0;
+						top: 90px;
+						}
+
+a#next-button 			{
+						background-position: -62px 0;
+						left: 342px;
+						top: 90px;
+						}
+
+
